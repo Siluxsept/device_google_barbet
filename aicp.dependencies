@@ -12,10 +12,5 @@
   {
     "repository":  "AICP/kernel_google_redbull",
     "target_path": "kernel/google/redbull"
-  },
-  {
-    "repository":  "luk1337/ih8sn",
-    "target_path": "vendor/ih8sn",
-    "branch":      "master"
   }
 ]
