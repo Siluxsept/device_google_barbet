@@ -5,18 +5,18 @@
 #
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/aicp/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/google/barbet/aosp_barbet.mk)
-$(call inherit-product, device/google/redbull/lineage_common.mk)
+$(call inherit-product, device/google/redbull/aicp_common.mk)
 
 include device/google/barbet/device-lineage.mk
 
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 5a
-PRODUCT_NAME := lineage_barbet
+PRODUCT_NAME := aicp_barbet
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2340
